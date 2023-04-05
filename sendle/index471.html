@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sendle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<meta name="author" content="sendle"/>
+<meta name="description" content="Use our parcel tracking tool to find out where your parcel is in our delivery network. All you need is the parcel tracking number,or link.">
+<meta name="theme-color" content="#ffffff"/>
+<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"/>
+<link rel="stylesheet" href="trackinghome.css"/>
+<link rel="icon" type="image/x-icon" href="sendlefavicon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#HMTMB").click(function(){
+   $("#IXON").load("sendle471.html");
+   alert("djvk")
+  });
+});
+</script>
+</head>
+<body>
+
+<div class="header">
+<img src="sendlelogo.png" class="logo"/>
+</div>
+
+<div class="Hmetainfo">
+<div class="Hmetainfosub" id="Hmetainfosub1">Your parcel XPL9A2 is on it's way!</div>
+<div class="Hmetainfosub" id="Hmetainfosub2">parcels on this route usually arrive by Friday,April 7,2023</div>
+<button class="HMTMB" id="HMTMB">Track my parcel</button>
+</div>
+
+<div id="IXON"> </div>
+
+<div class="Icontainer">
+<div class="ITCleft"><button class="senderimg"></button></div>
+<div class="ITCrigth">
+<div class="Itxtcont"><span class="SItitle">Sender</span><br/><span class="SItext">Toni Larz Bertelsen</span></div>
+<div class="Itxtcont"><span class="SItitle">Description</span><br/><span class="SItext">Remy Funko Pop </span></div>
+<div class="Itxtcont"><span class="SItitle">Refrence Number</span><br/><span class="SItext">XPL9A2</span></div>
+</div>
+</div>
+<div class="Icontainer">
+<div class="ITCleft">
+<div class="Itxtcont SItitle">Delivery Address</div>
+<div class="Itxtcont SItext">Ever Cervantes</div>
+<div class="Itxtcont SItext">18008 E 31st Terrace Dr S, <br> Independence, MO 64057</div>
+<div class="Itxtcont SItext">United States</div>
+</div>
+<div class="ITCrigth"><button class="recieverimg"></button></div>
+</div>
+
+<div class="section3">
+<div class="s3s1">Haven't recieved your parcel?</div>
+<div class="s3s2">if it's been more than <strong>2 buisness days</strong> since the delivery estimate date,and there has been no update to the
+ tracking information in that time,we are ready to <a href="mailto: infosendle@gmail.com" style="color:dodgerblue;text-decoration:none;">help with your delivery.</a>
+</div>
+<img src="sendletemplate.jpg" class="sendletemplate"/>
+</div>
+<div class="section3">
+<h2>Where do i find my package tracking number?</h2>
+<p class="s3s3">Your package tracking number can be found in confirmation or notification emails you’ve received.
+ The package tracking number is also shared with your Sendler so they can keep track of the shipment progress via the Sendle tracking tool.
+ Likewise, you’ll both be notified when the package completes its journey.
+</p>
+<p class="s3s4">Tip: You can find your package tracking reference in the email subject line for easy access! </p>
+</div>
+
+
+<div class="section4">
+<h2 class="s4s1">Trouble finding your package?</h2>
+<p class="s4s2">All shipments are monitored by Sendle’s package tracking tool. In the rare case the package tracker marks your shipment ‘delivered’,
+ but you can’t seem to find it, here are the following possible scenarios:</p>
+<div class="s4s3">My package is marked 'delivered' with a signature.</div>
+<p class="s4s2">It was signed for by a colleague, family member, friend, or neighbor (the receiver may need to ask around).</p>
+<p class="s4s2">It has been transferred to a third-party agent to complete delivery and it is still in transit. This is typical for more rural deliveries and is
+ nothing to worry about—it’ll arrive soon! </p>
+<p class="s4s2">Accidentally scanned as delivered when it was being scanned as in transit. We recommend waiting a day to see if it
+receives an additional tracking scan. </p>
+<div class="s4s3">My package is marked 'delivered' without a signature.</div>
+<p class="s4s2">Since all packages with Sendle have 'Authority To Leave', the driver can leave the packages in a safe place on the property. </p>
+<p class="s4s2">It was accidentally scanned as delivered when it was meant to be scanned as in-transit. We recommend waiting a day to
+ see if it receives an additional tracking scan. </p>
+<a href="mailto:infosendle@gmail.com" style="text-decoration:none;"><button class="GITWOSTbut"> Get in touch with our support team</button></a>
+</div>
+<footer class="footer">©copyright, All rights reserved</footer>
+</body>
+</html>
